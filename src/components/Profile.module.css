@@ -1,0 +1,9 @@
+
+.content {
+  grid-area: c;
+  background-color: rgb(98, 205, 255);
+}
+
+.avatar {
+  width: 200px;
+}
