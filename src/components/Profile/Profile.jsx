@@ -3,7 +3,7 @@ import s from "./Profile.module.css";
 
 function Profile() {
   return (
-    <div className={s.content}>
+    <div>
       <div>
         <img
           className={s.main}

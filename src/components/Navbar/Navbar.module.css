@@ -3,6 +3,11 @@
   background-color: rgb(247, 97, 97);
 }
 
-.item {
+.item a {
   color: white;
+  text-decoration: none;
+}
+
+.item a.activeLink {
+  color: yellow;
 }
