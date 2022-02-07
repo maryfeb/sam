@@ -14,7 +14,7 @@ function Navbar() {
                 <NavLink to="/profile"  style={({isActive}) => isActive ? activeStyle : undefined}>Profile</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to="/messages" style={({isActive}) => isActive ? activeStyle : undefined}>Messages</NavLink
+                <NavLink to="/dialogs" style={({isActive}) => isActive ? activeStyle : undefined}>Messages</NavLink
                 ></div>
             <div className={s.item}>
                 <NavLink to='/news' style={({isActive}) => isActive ? activeStyle : undefined}>News</NavLink>
