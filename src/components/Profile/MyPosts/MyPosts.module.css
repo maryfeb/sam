@@ -5,3 +5,14 @@
 .posts {
     margin-top: 10px;
 }
+
+textarea {
+    width: 40%;
+    height: 54px;
+    color: #392828;
+    background-color: #ef9be9e0;
+    margin-top: 50px;
+    border: rgba(241, 99, 199, 0.46) 3px solid;
+    border-radius: 5px;
+    box-shadow: 5px 0px 15px rgb(236 65 213 / 84%);
+}

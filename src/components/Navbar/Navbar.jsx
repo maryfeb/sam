@@ -4,8 +4,10 @@ import {NavLink} from "react-router-dom";
 function Navbar() {
 
     let activeStyle = {
-        color: 'yellow',
-        fontWeight: '500',
+        color: '#ff71e0',
+        // fontWeight: '500',
+        // textShadow:'0 0 11px #ff0073',
+
     };
 
     return (

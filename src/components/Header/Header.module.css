@@ -2,9 +2,10 @@
 
 .header {
     grid-area: h;
-    background-color: rgb(174, 98, 204);
+    background-color: #1e0312;
+
 }
 
 .header img {
-    height: 50px;
+    height: 62px;
 }

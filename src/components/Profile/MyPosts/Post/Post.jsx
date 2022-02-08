@@ -3,9 +3,10 @@ import s from "./Post.module.css";
 function Post(props) {
   return (
     <div className={s.item}>
-      <img src="https://telegrator.ru/wp-content/uploads/2021/05/chat_avatar-136.jpg"alt="ava"></img>
+      <img src="https://i.pinimg.com/originals/46/6a/e8/466ae87698cfdbab38b4878ccede6ad4.jpg"alt="ava"/>
       <div>
-        <span>Like {props.likesCount}</span>
+        <div>{props.message} </div>
+        <span>Likes {props.likesCount}</span>
       </div>
     </div>
   );
