@@ -2,15 +2,10 @@ import s from "./MyPosts.module.css";
 import Post from "./Post/Post";
 
 
-function MyPosts() {
-    let posts = [
-        {id: 0, message:'Hi, how are you?', likesCount: 15},
-        {id: 1, message: "Let it snow", likesCount: 25},
-        {id: 2, message: "It's my vacation", likesCount: 22},
-        {id: 3, message: "It's my first post", likesCount: 25},
-    ];
+function MyPosts(props) {
 
-    let myPostsElement = posts.map(p => <Post message={p.message} likesCount={p.likesCount} />);
+
+    let myPostsElement = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} />);
 
     return (
 
